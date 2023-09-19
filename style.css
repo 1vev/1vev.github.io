@@ -1,13 +1,14 @@
-
 h1 {
     color:purple;
-    text-shadow: tomato;
+    text-shadow: 4px 4px 10px black;
 
 }
-
-
 p {
     color:yellow;
-    text-shadow: tomato;
+    text-shadow: 2px 2px 5px black;
     /* comment example */
+}
+
+a:hover{
+    color:aquamarine;
 }
