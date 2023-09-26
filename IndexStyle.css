@@ -9,45 +9,47 @@
     url("apercu_regular.otf") format("opentype");
     }
   
+.grid{
+    display: grid;
+    grid-row-start:-10;
+    grid-column-start:auto;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    justify-self: center;
+}
 
 h1 {
     color:black;
-    margin: 50px 10px 0px 10px;
+    margin: 50px 10px 500px 30px;
     font-family:'Archivo Black';
     font-size: 14vw;
     text-align: center;
-    overflow: hidden;
 }
 
 h2{
     color:black;
     font-family:'ManifontGroteskBook';
     font-weight: 100;
-    font-size: 8vw;
+    margin: 50px 30px 1000px 30px;
+    font-size: 10vw;
     text-align: center;
-    line-height: 8vw;
+    line-height: 12vw;
 
 }
-a{
-    color:black;
-    font-family:'ManifontGroteskBook';
-    margin: 200px 30px 30px 30px;
-    font-weight: 100;
-    font-size: 8vw;
-    text-align: center;
-    line-height: 8vw;
-}
-p {
-    color:black;
+
+p, a {
+    color: black;
     font-family: 'apercu_regular';
     text-align: center;
+    display: inline-block;
+
 }
 
 a:visited{
-    color:rgb(93, 93, 93);
+    opacity:80%;
 }
 
 
 a:hover{
-    color:red;
+    color:gray;
 }
