@@ -55,18 +55,20 @@ a:hover{
 
 
 .Intro{
-    display:flex;
+    display:grid;
     flex-direction: column;
-    flex: 1 1 auto;
 }
 
-.IntroBodyText{
+
+.IntroSentence{
     flex: 1 1 auto;
 
+}
+.IntroBodyText{
+    flex: 1 1 auto;
 }
 
 .linktoharmonyandcontrast{
     flex: 1 1 auto;
-
 }
 
