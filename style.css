@@ -14,7 +14,7 @@ h1 {
     color:black;
     margin: 50px 10px 0px 10px;
     font-family:'Archivo Black';
-    font-size: 14vw;
+    font-size: 6vw;
     text-align: center;
     overflow: hidden;
 }
@@ -41,6 +41,7 @@ p {
     color:black;
     font-family: 'apercu_regular';
     text-align: center;
+    font-size:80%;
 }
 
 a:visited{
@@ -51,3 +52,21 @@ a:visited{
 a:hover{
     color:red;
 }
+
+
+.Intro{
+    display:flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+}
+
+.IntroBodyText{
+    flex: 1 1 auto;
+
+}
+
+.linktoharmonyandcontrast{
+    flex: 1 1 auto;
+
+}
+
