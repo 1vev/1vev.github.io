@@ -1,49 +1,263 @@
 <!DOCTYPE html><!--document type declaration-->
 <html>
     <head>
-        <title>CSS Letterform R</title>
+        <title>Letterform R</title>
         <style>
-    .stem{
-        display:inline;
-        float:left;
-        width:70px;
-        height:400px;
-        margin:0 800 0 20;
-        background-color:black;
+    body{
+        background-color: white;
 }
-    .counter{
-        display:inline;
+    h1{
+    font-size: 150px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    margin:100px auto 120px auto;
+}
+
+    .firstdesign{
+        position:relative;
+        display:inline-block;
         float:left;
-        width: 200px;
-        height:200px;
-        border-radius:50%;
-        background-color: black;
-        margin:0 600 0 70;
+        margin-left: 400px;
+        transform: scale(1.2);
+
+}
+    .seconddesign{
+        display:inline-block;
+        clear:left;
+        position:relative;
+        margin-top:60px;
+        margin-left:-400px;
+        margin-bottom: 300px;
+        transform:scale(1.4);
+
+}
+    .thirddesign{
+        position:relative;
+        display:inline-block;
+        float:left;
+        margin-left: 60px;
+        margin-top:-380px;
+        transform: scale(1.2);
+
+    }
+
+    .fourthdesign{
+        margin-left:-150px;
+    }
+
+    .fifthdesign{
+        margin-top:-30px;
+    }
+    .stem{
+        display:flex;
+        float:left;
+        width:100px;
+        height:440px;
+        margin:0px 0px 0px 0px;
+        background-color:black;
+        border-radius: 20px 20px 20px 20px;
+}
+    .bowl{
+        display:flex;
+        float:left;
+        margin:50px 0px 0px -20px;
+        width:200px;
+        height:100px;
+        border-radius:30%;
+        border: 80px solid black;
+        border-width:20px 80px;
+        background-color: white;
+        border-left-width: 1px;
 }
 
     .leg{
-        display: inline;
+        position:absolute;
+        display:flex;
         float:left;
-        justify-content: space-between;
-        width: 160px;
-        border-right: 35px solid transparent;
-        border-bottom:200px solid black;
-        height: 0px;
-        margin:400 580 0 500;
+        justify-content:space-between;
+        width: 140px;
+        height: 325px;
+        margin:-105px 0px 0px 185px;
+        border-radius:20px 20px 20px 20px;
+        transform:skewX(50deg);
+        background-color: black;
     }
-        </style>
+
+    .bowlb{
+        display:block;
+        float:right;
+        margin:300px 50px 0px 10px;
+        width:600px;
+        height:130px;
+        border-radius: 150px 50px 0px 0px;
+        background-color:white;
+        border:solid black;
+        border-width:90px 20px;
+    }
+
+    .stemb{
+        display:block;
+        position:absolute;
+        float:right;
+        width:120px;
+        height:240px;
+        margin:386px 0px 0px 781px;
+        border-radius:20px 20px 20px 0px;
+        background-color:black;
+    }
+
+    .legb{
+        width:300px;
+        height:240px;
+        background-color: black;
+        transform:skewX(50deg);
+        display:block;
+        margin:386px -80px 0px 1250px;
+        border-radius:20px 20px 0px 20px;
+    }
+
+    .stemc{
+      display: flex;
+      width: 0;
+      height: 0;
+      border-left: 0px solid transparent;
+      border-right: 140px solid transparent;
+      border-bottom: 420px solid black;
+      margin: 380px 0px 0px 155px;
+    }
+
+    .bowlc{
+    position:relative;
+    /* display:flex; */
+    width:200px;
+    height:0px;
+    border-left:120px solid transparent;
+    border-top:200px solid black;
+    border-bottom:30px solid transparent;
+    margin: -380px 0px 0px 130px;
+}
+    .counterc{
+    position:absolute;
+    top:50px;
+    left:20px;
+    width:90px;
+    height:0px;
+    border-left:60px solid transparent;
+    border-top:90px solid white;
+    border-bottom:40px solid transparent;
+    margin: -200px 0px 0px -30px;
+}
+
+    .legc{
+      display:flex;
+      width: 0;
+      height:0;
+      border-top: 150px solid black;
+      border-left: 360px solid transparent;
+      margin: -200px 0px 0px 130px;
+      transform: rotate(30deg);
+	  transform-origin: upper left;
+
+}
+    .stemd{
+        display:flex;
+        position:absolute;
+        margin:100px auto auto 400px;
+        background:black;
+        width:300px;
+        height:600px;
+        transform:skewY(-20deg);
+}
+
+    .bowld{
+        display:inline-flex;
+        position:absolute;
+        background:white;
+        border: 30px solid black;
+        width:160px;
+        height:200px;
+        border-radius:50%;
+        transform:skewY(-30deg);
+        margin:100px 0px 0px 600px;
+    }
+
+    .legd{
+        display:inline-flex;
+        position:absolute;
+        background:black;
+        width:250px;
+        height:40px;
+        transform:skewY(50deg);
+        margin:530px 0px 0px 700px;
+    }
+    .countere{
+        width:440px;
+        height:240px;
+        background:white;
+        border:40px solid black;
+        display:flex;
+        margin:100px 0px 0px 1000px;
+    }
+
+    .steme{
+        height:300px;
+        border-left:40px solid black;
+        margin:0px 0px 0px 1000px;
+    }
+
+    .lege{
+        position:relative;
+        display:flex;
+        margin:-280px 0px 0px 1000px;
+        position: absolute;
+        height: 200px;
+        width: 460px;
+        border-radius: 0px 200px 0 0;
+        background-color:transparent;
+        border:40px solid black;
+    }
+
+    .eraser{
+        position:absolute;
+        display:flex;
+        background:white;
+        height: 100px;
+        width: 540px;
+        margin:200px 0px 0px -40px;
+    }
+    </style>
 </head>
 <body>
+    <h1>RADICAL REFORMATION</h1>
     <div class="firstdesign">
         <div class="stem"></div>
-        <div class="counter"></div><br><br><br><br><br><br><br><br><br><br><br>
+        <div class="bowl"></div><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
         <div class="leg"></div>
     </div>
-    <div class="seconddesign">
-        <div class="stem2"></div>
-        <div class="counter2"></div>
-        <div class="leg2"></div>
-
+    <div class="thirddesign">
+        <div class="stemc"></div>
+        <div class="bowlc"><div class="counterc"></div></div><br><br><br><br><br><br><br><br><br><br><br><br>
+        <div class="legc"></div>
     </div>
+    <br><br><br><br><br><br><br><br><br><br><br>
+
+    <div class="seconddesign">
+        <div class="bowlb"></div><br><br><br><br><br><br><br><br><br><br><br><br>
+        <div class="stemb"></div>
+        <div class="legb"></div>
+    </div>
+
+    <div class="fourthdesign">
+        <div class="bowld"></div>
+        <div class="stemd"></div>
+        <div class="legd"></div>
+    </div>
+
+    <div class="fifthdesign">
+        <div class="countere"></div>
+        <div class="steme"></div>
+        <div class="lege"><div class="eraser"></div></div>
+    </div>
+
 </body>
 </html>
