@@ -9,7 +9,7 @@
     url("apercu_regular.otf") format("opentype");
     }
   
-.grid, .exercise1, .exercise2, .exercise3{
+.grid, .exercise1, .exercise2, .exercise3, .exercise4{
     display: flex;
     flex-direction: row;
     align-items:center;
@@ -23,6 +23,9 @@
     flex: 1 1 auto;
 }
 .exercise3{
+    flex: 1 1 auto;
+}
+.exercise4{
     flex: 1 1 auto;
 }
 h1 {
