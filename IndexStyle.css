@@ -10,11 +10,10 @@
     }
   
 .grid, .exercise1, .exercise2, .exercise3, .exercise4{
-    display: flex;
-    flex-direction: row;
+    display:flex;
+    flex-direction:row;
     align-items:center;
-    justify-content: space-evenly;
-    
+    justify-content:space-evenly;   
 }
 .exercise1{
     flex: 1 1 auto;
@@ -53,7 +52,6 @@ p, a {
     font-family: 'apercu_regular';
     text-align: center;
     display: inline-block;
-
 }
 
 a:visited{
