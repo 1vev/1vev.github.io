@@ -1,0 +1,197 @@
+<html>
+<head></head>
+<style>
+    body{
+        background-color: #636363;
+    }
+    .stem{
+        position:absolute;
+        display:flex;
+        width:100px;
+        height:440px;
+        margin:0px 0px 0px 0px;
+        background-color:salmon;
+        border-radius: 20px 20px 20px 20px;
+        animation-name:stemlight;
+        animation-duration: 3s;
+        animation-timing-function:cubic-bezier(0.075, 0.82, 0.165, 1);
+        animation-iteration-count: infinite;
+        animation-delay: 0s;
+        animation-direction:normal;
+        animation-play-state:running;
+        animation-fill-mode: none;
+}
+
+    .bowl{
+        position:absolute;
+        display:flex;
+        margin:50px 0px 0px 100px;
+        width:200px;
+        height:100px;
+        border-radius:30%;
+        border: 80px solid salmon;
+        border-width:20px 80px;
+        border-left-width: 1px;
+        animation-name:bowllight;
+        animation-duration: 3s;
+        animation-timing-function:cubic-bezier(0.075, 0.82, 0.165, 1);
+        animation-iteration-count: infinite;
+        animation-delay: 0s;
+        animation-direction:normal;
+        animation-play-state:running;
+        animation-fill-mode: none;
+}
+    /* .counter{
+        position:absolute;
+        display:flex;
+        margin:50px 0px 0px 100px;
+        width:200px;
+        height:100px;
+        border-radius:30%;
+        border: 80px solid salmon;
+        border-width:20px 80px;
+        position:absolute;
+        display:flex;
+        margin:50px 0px 0px 100px;
+        width:100px;
+        height:50px;
+        background-color: #636363;
+        border-left-width: 1px;
+} */
+    .leg{
+        position:absolute;
+        display:flex;
+        justify-content:space-between;
+        width: 140px;
+        height: 325px;
+        margin:170px 0px 0px 185px;
+        border-radius:20px 20px 20px 20px;
+        transform:skewX(50deg);
+        background-color: salmon;
+        animation-name:leglight;
+        animation-duration: 3s;
+        animation-timing-function:cubic-bezier(0.075, 0.82, 0.165, 1);
+        animation-iteration-count: infinite;
+        animation-delay: 0s;
+        animation-direction:normal;
+        animation-play-state:running;
+        animation-fill-mode: none;
+    }
+    .stem1{
+        display:inline-flex;
+        position:absolute;
+        margin:100px auto auto 400px;
+        width:300px;
+        height:600px;
+        transform:skewY(-20deg);
+        background-color: salmon;
+}
+
+    .bowl1{
+        display:inline-flex;
+        position:absolute;
+        background:#636363;
+        border: 30px solid salmon;
+        width:160px;
+        height:200px;
+        border-radius:50%;
+        transform:skewY(-30deg);
+        margin:100px 0px 0px 600px;
+}
+
+    .leg1{
+        display:inline-flex;
+        position:absolute;
+        width:250px;
+        height:40px;
+        transform:skewY(50deg);
+        margin:530px 0px 0px 700px;
+        background-color: salmon;
+}
+    .rotate{
+        display:flex;
+        margin-left:-60px;
+        margin-top:20px;
+        margin-bottom:1000px;
+        transform: scale(.6);
+        transition-property: rotate; 
+        transition-duration:.8s;
+        transition-timing-function:ease-in-out;
+        transform-origin:500px 400px;
+        
+}
+    .rotate:hover{
+        rotate:720deg;
+        transform:scale(1);
+}
+    @keyframes leglight{
+        0% {
+		background-color:salmon;
+        }
+        25% {
+        background-color:cyan;
+        }
+        50% {
+        background-color:salmon;
+        }
+        75% {
+        background-color:cyan;
+        }
+    }
+
+
+    @keyframes stemlight{
+        0% {
+		background-color:salmon;
+        filter: drop-shadow(0 0 1.75rem salmon);
+        }
+        25% {
+        background-color:cyan;
+        filter:drop-shadow(0 0 1.75rem cyan);
+        }
+        50% {
+        background-color:salmon;
+        filter: drop-shadow(0 0 1.75rem salmon);
+        
+        }
+        75% {
+        background-color:cyan;
+        filter:drop-shadow(0 0 1.75rem cyan);
+        }
+    }
+
+    @keyframes bowllight{
+        0% {
+		background-color:salmon;
+        }
+        25% {
+        background-color:cyan;
+        }
+        50% {
+        background-color:salmon;
+        }
+        75% {
+        background-color:cyan;
+        }
+    }
+</style>
+
+<body>
+    <div style="filter: drop-shadow(3px 10px 8px rgb(86, 28, 28));"class="rotate">
+            <div class="bowl1"></div>
+            <div class="stem1"></div>
+            <div class="leg1"></div>
+    </div>
+ 
+    <div style="position:relative;display:flex;margin-left:900px;" class="glow">
+           <div class="letterform">
+                <div class="bowl"></div>
+                <div class="counter"></div>
+                <div class="stem"></div>
+                <div class="leg"></div>
+    </div>
+</div>
+
+</body>
+
+</html>
