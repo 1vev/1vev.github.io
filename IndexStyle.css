@@ -31,7 +31,6 @@
     flex: 1 1 auto;
 }
 h1 {
-    color:black;
     margin: 20px 0px 600px 0px;
     font-family:'Archivo Black';
     font-size: 15vw;
@@ -40,7 +39,6 @@ h1 {
 }
 
 h2{
-    color:black;
     font-family:'ManifontGroteskBook';
     font-weight: 100;
     margin: 50px 30px 1000px 30px;
@@ -51,7 +49,6 @@ h2{
 }
 
 p, a {
-    color: black;
     font-family: 'apercu_regular';
     text-align: center;
     display: inline-block;
@@ -64,4 +61,16 @@ a:visited{
 
 a:hover{
     color:fuchsia;
+}
+
+.dark{
+    background-color:rgb(31, 31, 31);
+    color:white;
+}
+
+.button{
+    width:30px;
+    top:20px;
+    left:20px;
+    position:fixed;
 }
