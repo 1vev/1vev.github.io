@@ -10,10 +10,11 @@
     }
   
 .grid, .exercise1, .exercise2, .exercise3, .exercise4, .exercise5{
-    display:flex;
-    flex-direction:row;
+    display:inline-block;
+    /* flex-direction:row; */
     align-items:center;
-    justify-content:space-evenly;   
+    justify-content:space-evenly;
+    margin:auto 90px auto 90px;
 }
 .exercise1{
     flex: 1 1 auto;
@@ -30,6 +31,10 @@
 .exercise5{
     flex: 1 1 auto;
 }
+/* .exercise6{
+    flex: 1 1 auto;
+    float:left;
+} */
 h1 {
     margin: 20px 0px 600px 0px;
     font-family:'Archivo Black';
