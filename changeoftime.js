@@ -8,7 +8,7 @@ $(document).ready(function(){
 //       $(this).css("background-color", "red");}, function(){$(this).css("background-color", "blue");});
 //   });
 
-$(document).ready(function(){
-    $(".leftbar").click(function(){
-      $(this).css("filter", "blur(0px)");}, function(){$(this).css("filter", "blur(6px)");});
-  });
+// $(document).ready(function(){
+//     $(".leftbar").click(function(){
+//       $(this).css("filter", "blur(0px)");}, function(){$(this).css("filter", "blur(6px)");});
+//   });
