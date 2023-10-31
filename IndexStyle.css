@@ -31,10 +31,11 @@
 .exercise5{
     flex: 1 1 auto;
 }
-/* .exercise6{
+.project2{
     flex: 1 1 auto;
     float:left;
-} */
+}
+
 h1 {
     margin: 20px 0px 600px 0px;
     font-family:'Archivo Black';
