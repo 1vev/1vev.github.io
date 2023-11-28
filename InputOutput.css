@@ -1,0 +1,231 @@
+body{
+    display: block;
+    background-color:#fff7e0;
+    width: 100vw;
+    overflow: visible;
+}
+
+.content{
+    display:flex;
+    width: 100vw;
+    overflow: visible;
+    row-gap: 10px;
+    flex-direction: row;
+    margin-top: -200px;
+}
+
+h1,h2,h3,h4,h5{
+    font-family: 'Cutive Mono', monospace;
+    font-size: 1rem;
+    padding: .2%;
+    text-align: center;
+    background-color: rgb(220, 55, 26);
+    color: #fff7e0;
+}
+
+h4{
+    margin-top:30px;
+}
+
+h6{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 6em;
+    text-align:left;
+    margin-left: 50px;
+    margin-top: 0px;
+    color: rgb(220, 55, 26);
+}
+
+/* LEFT SECTION */
+
+.left-input{
+    display:block;
+    flex-grow:0;
+    justify-content: center;
+    align-items: center;
+    padding-right: 20px;
+}
+
+h1{
+    margin-left: 70px;
+    margin-top: 20px;
+    width: 80%;
+}
+
+button{
+    color: rgb(220, 55, 26);
+    font-size: 2em;
+    font-family: 'DM Sans', sans-serif;
+    cursor: pointer;
+    background-color:#fff7e0;
+    padding: 10%;
+    width: 210px;
+    height: 210px;
+    align-self: center;
+    border: 2px solid rgb(220, 55, 26);
+}
+
+.buttonpanel{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-self: center;
+    align-self: center;
+    justify-content: center;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+button:active{
+    color:#fff7e0;
+    background-color:rgb(220, 55, 26);
+}
+
+/* MIDDLE SECTION */ 
+
+.middle-selected{
+    width: 300px;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-direction: column;
+}
+
+h5{
+    margin-top:0px;
+    width: 300px;
+}
+
+#first-character{
+    width: 200px;
+    height: 200px;
+}
+
+/* RIGHT SECTION*/ 
+
+h2{
+    margin-top: 20px;
+    width: 80%;
+}
+
+.right-result{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+    margin-top: 0px;
+    /* border-left: 1px solid black;  */
+}
+
+.idiom{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-self: center;
+    align-self: center;
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.character1{
+    font-family: 'Noto Sans SC', sans-serif;
+    font-size: 2.6em;
+    margin: 0px 50px 0px 50px;
+    text-align: center;
+    display: none;
+}
+
+.character2nd, .character3rd, .character4th{
+    margin:0px 50px 0px 50px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 2.6em;
+    justify-self: center;
+    align-self: center;
+    display: none;
+}
+
+/* #last-3-characters{
+    font-family: 'Noto Sans SC', sans-serif;
+    font-size: 3em;
+    border-bottom: 1.5px solid black;
+    justify-self: stretch;
+    align-self: stretch;
+    display: inline-flex;
+    letter-spacing: .8em;
+} */
+
+.separate-meaning{
+    display:inline-flex;
+    flex-direction:row;
+    flex-flow: row nowrap;
+    align-items: center;
+    margin-bottom:0px;
+}
+
+.first-english-word, .second-english-word,.third-english-word,.fourth-english-word{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 3.2em;
+    margin-left: 50px;
+    margin-right: 50px;
+    color: rgb(220, 55, 26);
+    display: none;
+    text-align:center;
+    position: relative;
+}
+
+.first-english-word{
+    display: none;
+}
+
+.actual-meaning{
+    width: 80%;
+    height: 20%;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 4em;
+    color: rgb(220, 55, 26);
+    display: none;
+    text-align:center;
+}
+
+.active{
+    display: block;
+}
+
+/* .hanzi1{
+    margin: 50px auto;
+    font-family: 'Noto Sans SC', sans-serif;
+    font-size: 5em;
+    width: 100px;
+    justify-content: center;
+    align-items: center;
+} */
+
+.engword-wrapper{
+    display: block;
+    margin: 50px auto;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.slit{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-self: center;
+    align-self: center;
+    justify-content: center;
+}
+.slit1,.slit2, .slit3, .slit4{
+    border-bottom: 2px solid rgb(220, 55, 26);
+    width: 6.6em;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.final-revealment > button{
+    margin: 60px 50px 0px 60px;
+    width:700px;
+    height: 60px;
+    padding: 10px;
+    /* display: none; */
+}
