@@ -9,12 +9,13 @@
     url("apercu_regular.otf") format("opentype");
     }
   
-.grid, .exercise1, .exercise2, .exercise3, .exercise4, .exercise5{
+.grid, .exercise1, .exercise2, .exercise3, .exercise4, .exercise5,.project2{
     display:inline-block;
     /* flex-direction:row; */
     align-items:center;
     justify-content:space-evenly;
     margin:auto 90px auto 90px;
+    
 }
 .exercise1{
     flex: 1 1 auto;
@@ -32,6 +33,10 @@
     flex: 1 1 auto;
 }
 .project2{
+    flex: 1 1 auto;
+    float:left;
+}
+.project3{
     flex: 1 1 auto;
     float:left;
 }
@@ -63,7 +68,6 @@ p, a {
 a:visited{
     color: darkgray;
 }
-
 
 a:hover{
     color:fuchsia;

@@ -8,6 +8,7 @@
      <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC&display=swap" rel="stylesheet">
      <link href="https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700&display=swap" rel="stylesheet">
     
 </head>
 
@@ -18,11 +19,11 @@
 <!-- LEFT SECTION -->
 
 <div class="left-input">
-    <h1>Click any characters to complete <br> a four-character Chinese idiom</h1>
+    <h1>Choose a starting character to break <br> down a four-character Chinese idiom</h1>
         <div class="buttonpanel">
         <button id="engword1">Water</button>
-        <button id="engword2">Square</button>
-        <button id="engword3">Fidelity</button>
+        <button id="engword2">Ten Thousand</button>
+        <button id="engword3">Turn</button>
         <button id="engword4">Sky</button>
         <button id="engword5">Golden</button>
         <button id="engword6">Two</button>
@@ -48,28 +49,42 @@
 <!-- RIGHT SECTION -->
 <div class="right-result">
 
-    <h2>The idiom is</h2>
+    <h2>The idiom is [Click from left to right]</h2>
+    <div style="border-bottom: 3px solid rgb(220, 55, 26); width: 800px; margin-top:10px;"></div>
+    <i class="arrow"></i>
 
-    <div class="idiom">
+    <div class="idiom1">
         <div class="character1"><button>水</button></div>
         <div class="character2nd"><button>落</button></div>
         <div class="character3rd"><button>石</button></div>
         <div class="character4th"><button>出</button></div>
-        
-        <!-- <button id="character2nd">Character<br>#2</button>
-        <button id="character3rd">Character<br>#3</button>
-        <button id="character4th">Character<br>#4</button> -->
+    </div>
+
+    <div class="idiom2">        
+        <div class="character5"><button>万</button></div>
+        <div class="character6"><button>马</button></div>
+        <div class="character7"><button>齐</button></div>
+        <div class="character8"><button>喑</button></div>
     </div>
 
     <h3>Each character represents</h3>
     
     <div class="engword-wrapper">
-        <div class="separate-meaning">
+
+        <div class="separate-meaning1">
             <div class="first-english-word">Water</div>
             <div class="second-english-word">Drip</div>
             <div class="third-english-word">Stone</div>
             <div class="fourth-english-word">Appear</div>            
         </div>
+
+        <div class="separate-meaning2">
+                <div class="fifth-english" style="font-size:2.4em;">Ten<br>Thousand</div>
+                <div class="sixth-english">Horse</div>
+                <div class="seventh-english">All</div>
+                <div class="eighth-english">Mute</div>
+        </div>
+
         <div class="slit">
             <div class="slit1"></div>
             <div class="slit2"></div>
@@ -78,10 +93,12 @@
         </div>
         <div class="final-revealment"><button>Generate the actual meaning</button></div>
     </div>
+
     <h4>This idiom actually means</h4>
     <div class="actual-meaning">Revealment of Truth</div>
+    <!-- <div class="actual-meaning2">People were afraid to speak</div> -->
 
-    </div>
+</div>
 </div>
 </div>
 </body>

@@ -14,8 +14,17 @@ body{
     margin-top: -200px;
 }
 
+p{
+    font-family: 'Fira Mono', monospace;
+    font-weight: bold;
+    font-size: 1.2em;
+    text-align: center;
+    color: rgb(220, 55, 26);
+}
+
 h1,h2,h3,h4,h5{
-    font-family: 'Cutive Mono', monospace;
+    font-family: 'Fira Mono', monospace;
+    font-weight: 400;
     font-size: 1rem;
     padding: .2%;
     text-align: center;
@@ -37,6 +46,7 @@ h6{
 }
 
 /* LEFT SECTION */
+
 
 .left-input{
     display:block;
@@ -65,6 +75,17 @@ button{
     border: 2px solid rgb(220, 55, 26);
 }
 
+button:hover{
+    color:#fff7e0;
+    background-color: rgb(238, 140, 123);
+}
+
+.buttonpanel > :focus{
+    color:#fff7e0;
+    background-color: rgb(220, 55, 26);
+    /* box-shadow: inset 0 0 40px rgb(255, 164, 148); */
+}
+
 .buttonpanel{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -75,14 +96,10 @@ button{
     margin-top: 40px;
 }
 
-button:active{
-    color:#fff7e0;
-    background-color:rgb(220, 55, 26);
-}
 
 /* MIDDLE SECTION */ 
 
-.middle-selected{
+/* .middle-selected{
     width: 300px;
     align-items: center;
     justify-content: center;
@@ -99,9 +116,20 @@ h5{
 #first-character{
     width: 200px;
     height: 200px;
-}
+} */
 
 /* RIGHT SECTION*/ 
+
+.arrow {
+    border: solid rgb(220, 55, 26);
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 10px;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    margin-left: 776px;
+    margin-top: -14px;
+  }
 
 h2{
     margin-top: 20px;
@@ -117,13 +145,13 @@ h2{
     /* border-left: 1px solid black;  */
 }
 
-.idiom{
+.idiom1, .idiom2{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     justify-self: center;
     align-self: center;
     justify-content: center;
-    margin-top: 60px;
+    margin-top: 40px;
     margin-bottom: 60px;
 }
 
@@ -135,10 +163,10 @@ h2{
     display: none;
 }
 
-.character2nd, .character3rd, .character4th{
+.character2nd, .character3rd, .character4th, .character5, .character6,.character7,.character8{
     margin:0px 50px 0px 50px;
-    font-family: 'DM Sans', sans-serif;
-    font-size: 2.6em;
+    font-family:'Noto Sans SC', sans-serif;
+    font-size: 2.8em;
     justify-self: center;
     align-self: center;
     display: none;
@@ -154,7 +182,7 @@ h2{
     letter-spacing: .8em;
 } */
 
-.separate-meaning{
+.separate-meaning1,.separate-meaning2{
     display:inline-flex;
     flex-direction:row;
     flex-flow: row nowrap;
@@ -162,7 +190,7 @@ h2{
     margin-bottom:0px;
 }
 
-.first-english-word, .second-english-word,.third-english-word,.fourth-english-word{
+.first-english-word, .second-english-word,.third-english-word,.fourth-english-word,.fifth-english, .sixth-english, .seventh-english, .eighth-english{
     font-family: 'DM Sans', sans-serif;
     font-size: 3.2em;
     margin-left: 50px;
@@ -173,18 +201,16 @@ h2{
     position: relative;
 }
 
-.first-english-word{
-    display: none;
-}
 
 .actual-meaning{
     width: 80%;
     height: 20%;
     font-family: 'DM Sans', sans-serif;
-    font-size: 4em;
+    font-size: 7em;
     color: rgb(220, 55, 26);
     display: none;
     text-align:center;
+    margin-bottom: 100px auto;
 }
 
 .active{

@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    $('body').click(function(){
+    $('button').click(function(){
         $('body').toggleClass('dark')
     })
 })
